@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .body {
+
+  }
+
+     .header {
+    background-color: #000;
+}
+         .menu{
+            background: #27394e;
+
+         }
+            .logo{
+                background: #ea584b;
+            }
+            .nav{
+                background:#ea584b ;
+            }
+            .social{
+                background:#ea584b ;
+            }
+        .text-principal{
+            background: #f0763a;
+        }
+             h1{
+                background: #ffcc5e;
+             }
+     .section {
+    background-color: #000;
+  }
+        .articles{
+            background: #44465e;
+
+       }
+             .article{
+            background: #1664a4;
+
+        }
+
+            .navigation{
+                background: #6399bb;
+            }
+
+        .aside{
+            background: #f94c47;
+        }
+        
+            .publicity{
+                background: #ffe380;
+            }
+     .footer {
+    background-color: #000;
+  }
+          .foot{
+             background: #e4a434;
+        }
+
+  
+
+
+
+
+
+
+  
