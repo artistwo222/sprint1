@@ -83,6 +83,7 @@
              background: #e4a434;
         }
 
+        /* media queries */
   
         @media all and (max-width: 800px) {
           .section {
@@ -103,24 +104,24 @@
             .section {
               flex-direction:column ;
                }
-               .articles {
+                 .articles {
                 background-color: #004763;
                 }
                
-                .article {
+                 .article {
                 background-color: #558991;
                }
-               .navigation {
+                 .navigation {
                 background-color: #97d4c5;
                }
 
-               .aside{
+                 .aside{
                 background-color: #ff784c;
                }
                   .publicity {
                   background-color: #ffab64;
                    }
-                  .foot {
+             .foot {
                     background-color: #ffbf60;
                   }
           }    
