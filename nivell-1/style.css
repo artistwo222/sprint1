@@ -103,13 +103,25 @@
             .section {
               flex-direction:column ;
                }
-               .article {
+               .articles {
+                background-color: #004763;
+                }
+               
+                .article {
                 background-color: #558991;
                }
                .navigation {
                 background-color: #97d4c5;
                }
-          }
+
+               .aside{
+                background-color: #ff784c;
+               }
+                  .publicity {
+                  background-color: #ffab64;
+
+                  
+          }    
 
                       
                
@@ -117,7 +129,7 @@
   
           
 
-
+ff784c
 
 
 
