@@ -127,7 +127,8 @@ a{
             
          }
 
-         p{column-count:2;
+         .cart {
+            column-count:2;
         }
 
 
