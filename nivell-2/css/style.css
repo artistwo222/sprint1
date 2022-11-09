@@ -68,46 +68,90 @@ a{
            
                  }
         .text-principal{
-            background: #f0763a;
+            background: rgba(0,0,0, .1);
+            align-items:flex-end;
+            height: 200px;
         }
              h1{
-                background: #ffcc5e;
+                text-align:center;
+                font-family: 'Playfair Display', serif;
+                font-size: 20px;
+                font-weight: 300;
+                color: #eda58b;
+                line-height: 1.8;
+                
              }
      .section {
-    background-color: #000;
+    background-color: #d8d7d7;
     display: flex ;
   }
         .articles{
-            background: #44465e;
+            
             flex: 2 1 auto;
             display: flex;
             flex-flow: row wrap;
+       
 
        }
              .article{
-            background: #1664a4;
+            background: #f5f1f1;
             flex:1  1  40% ;
+            font-size: 13px;
+            letter-spacing: 1px;
+            margin: 10px 10px 0 0 px ;
+            flex: 1 1 45%;
+            background: #ececec;
+            
 
         }
 
+         .article img{
+            width: 100%;
+           
+        
+        
+            
+         }
+         h3{
+            color: #e4a434;
+            font-size: 13px;
+            padding: 18px 0;
+            margin-top: -80px;
+         }
+         h2{
+            font-size: 25px;
+            text-transform: uppercase;
+            padding: 0px  0 10px 0;
+            color: #fff;
+            background: #f08080;
+            
+         }
+
+         p{column-count:2;
+        }
+
+
             .navigation{
-                background: #6399bb;
+                text-align: center;
                 flex:1 1 100%;
             }
 
         .aside{
-            background: #f94c47;
+            text-align:center;
             flex:1 1 auto;
         }
         
             .publicity{
-                background: #ffe380;
+                text-align:center;
             }
      .footer {
-    background-color: #000;
+    background-color: #d8d7d7;
+    text-align:center;
   }
           .foot{
-             background: #e4a434;
+             background: #f5f1f1
+             
+            
         }
 
         /* media queries */
