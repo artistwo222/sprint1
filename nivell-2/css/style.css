@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 *{
-    margin: 10px;
+    
     padding: 10px;
     box-sizing: border-box;
   }
@@ -22,12 +22,15 @@ a{
     background-size: cover;
      display: flex;
      flex-flow: column nowrap;
+     padding: 0;
+     height: 20rem;
 }
          .menu{
             display: flex;
             flex-flow: rowrap;
             height: 70px;
             align-items: center;
+            margin-bottom: 6rem;
 
          }
             .logo{
@@ -46,7 +49,7 @@ a{
                 .nav a{
                     color: #808080;
                     font-size: 11px;
-                     padding: o 10px;
+                     padding: 25px;
                      letter-spacing: 2px;
 
                 }
@@ -55,7 +58,7 @@ a{
                 }
             .social{
                
-                flex:1 1 auto;
+                
                 display: flex;
             }
                 .social a{
@@ -71,6 +74,7 @@ a{
             background: rgba(0,0,0, .1);
             align-items:flex-end;
             height: 200px;
+            margin: 3rem 4rem 0rem;
         }
              h1{
                 text-align:center;
@@ -82,14 +86,19 @@ a{
                 
              }
      .section {
-    background-color: #d8d7d7;
+    background-color: #fff;
     display: flex ;
-  }
+    padding: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+  
         .articles{
             
             flex: 2 1 auto;
             display: flex;
             flex-flow: row wrap;
+            background-color: #d8d7d7;
        
 
        }
@@ -107,23 +116,28 @@ a{
 
          .article img{
             width: 100%;
+            padding: 0px;
+            
+            
            
         
         
             
          }
          h3{
-            color: #e4a434;
+            color: #ffea00;
             font-size: 13px;
             padding: 18px 0;
-            margin-top: -80px;
+            margin-top: -70px;
+            margin-left: 30px;
          }
          h2{
             font-size: 25px;
             text-transform: uppercase;
-            padding: 0px  0 10px 0;
+            padding: 10px;
             color: #fff;
             background: #f08080;
+            
             
          }
 
@@ -140,11 +154,14 @@ a{
         .aside{
             text-align:center;
             flex:1 1 auto;
+            margin-left: 10px;
+            background-color: #d8d7d7;
         }
         
             .publicity{
                 text-align:center;
-            }
+             }
+                
      .footer {
     background-color: #d8d7d7;
     text-align:center;
