@@ -176,8 +176,9 @@ a{
   
         @media (min-width: 768px) and (max-width: 1024px)  {
           .section {
+            
             flex-direction:column ;
-             background-color: yellow; 
+             background-color:yellow; 
              }
                 
             
@@ -187,8 +188,9 @@ a{
         @media (min-width: 320px) and (max-width: 480px) {
             
             .menu {
-                flex-direction:column ;
-                 background-color: yellow; 
+                display: flex;
+                flex-direction:column;
+                 background-color:
                  }
             .section {
               flex-direction:column ;
