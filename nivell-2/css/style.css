@@ -31,6 +31,7 @@ a{
             height: 70px;
             align-items: center;
             margin-bottom: 6rem;
+        
 
          }
             .logo{
@@ -216,17 +217,9 @@ a{
 
         @media (min-width: 320px) and (max-width: 480px) {
             
-            .menu {
-                display: flex;
-                flex-direction:row;
-                
-                 
-                 }
                  
             h1{
-                font-size: 13px;
-                
-                
+                font-size: 13px;    
             }     
             .section {
                  flex-direction:column ;
