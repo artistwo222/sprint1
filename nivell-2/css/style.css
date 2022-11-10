@@ -181,13 +181,35 @@ a{
         /* media queries */
   
         @media (min-width: 768px) and (max-width: 1024px)  {
-          .section {
+          
             
-            flex-direction:column ;
-             background-color:yellow; 
-             
-             }
+            .menu {
+                display: flex;
+                flex-direction:row;
                 
+                 
+                 }
+            .section {
+                 flex-direction:column ;
+               }
+                 .articles {
+                background-color: #d8d7d7;
+                }
+               
+                 .article {
+                background-color: #f5f1f1;
+               }
+            
+
+                 .aside{
+                background-color: #ffffff;
+               }
+                  .publicity {
+                  background-color: #f5f1f1;
+                   }
+             .foot {
+                    background-color: #f5f1f1;
+                  }
             
 
         }
@@ -196,30 +218,36 @@ a{
             
             .menu {
                 display: flex;
-                flex-direction:column;
+                flex-direction:row;
+                
                  
                  }
+                 
+            h1{
+                font-size: 13px;
+                
+                
+            }     
             .section {
-              flex-direction:column ;
+                 flex-direction:column ;
                }
                  .articles {
-                background-color: #004763;
+                background-color: #d8d7d7;
                 }
                
                  .article {
-                background-color: #558991;
+                background-color: #f5f1f1;
                }
-                 .navigation {
-                background-color: #97d4c5;
-               }
+            
 
                  .aside{
-                background-color: #ff784c;
+                background-color: #ffffff;
                }
                   .publicity {
-                  background-color: #ffab64;
+                  background-color: #f5f1f1;
                    }
              .foot {
-                    background-color: #ffbf60;
+                    background-color: #f5f1f1;
                   }
+            
           }   
