@@ -79,7 +79,7 @@ a{
              h1{
                 text-align:center;
                 font-family: 'Playfair Display', serif;
-                font-size: 20px;
+                font-size: 30px;
                 font-weight: 300;
                 color: #eda58b;
                 line-height: 1.8;
@@ -119,17 +119,14 @@ a{
             padding: 0px;
             
             
-           
-        
-        
             
          }
          h3{
             color: #ffea00;
             font-size: 13px;
             padding: 18px 0;
-            margin-top: -70px;
-            margin-left: 30px;
+            margin-top: -40px;
+            margin-left: 10px;
          }
          h2{
             font-size: 25px;
@@ -137,6 +134,8 @@ a{
             padding: 10px;
             color: #fff;
             background: #f08080;
+            margin-top: -20px;
+            
             
             
          }
@@ -165,9 +164,14 @@ a{
      .footer {
     background-color: #d8d7d7;
     text-align:center;
+    padding: 0;
+    
+    
   }
           .foot{
-             background: #f5f1f1
+             background: #f5f1f1;
+             margin:0 1rem 0 1rem ;
+             
              
             
         }
@@ -179,6 +183,7 @@ a{
             
             flex-direction:column ;
              background-color:yellow; 
+             
              }
                 
             
@@ -190,7 +195,7 @@ a{
             .menu {
                 display: flex;
                 flex-direction:column;
-                 background-color:
+                 
                  }
             .section {
               flex-direction:column ;
