@@ -25,6 +25,19 @@ a{
      padding: 0;
      height: 20rem;
 }
+#logo {
+    animation: acelerate 3s linear infinite forwards;
+}
+
+        @keyframes acelerate {
+            from{
+                transform: translateX(-800px)scalex(-1);
+            }
+            to{
+                transform: translateX(900px)scaleX(-1);
+            }
+
+        }
          .menu{
             display: flex;
             flex-flow: rowrap;
@@ -37,12 +50,25 @@ a{
             .logo{
                 flex:1 1 auto;
                 width: px;
-                
+                animation: aparecer 3s  infinite forwards;
                 
             }
+            
+            
+                    @keyframes aparecer {
+                        from{
+                             opacity: matrix3d(5)1;
+                        }
+                        to{
+                            opacity: 0;
+                        }
+              }
+
             .logo > a > img{
                 width: 100px;
             }
+           
+            
             .nav{
                 
                 flex:1 1 auto;
@@ -84,8 +110,17 @@ a{
                 font-weight: 300;
                 color: #eda58b;
                 line-height: 1.8;
-                
+                animation: acelerate 30s linear infinite forwards;
              }
+             
+                    @keyframes acelerate {
+                        from{
+                            transform: translateX(-500px)scalex(1);
+                        }
+                        to{
+                            transform: translateX(500px)scaleX(1);
+                        }
+              }
      .section {
     background-color: #fff;
     display: flex ;
