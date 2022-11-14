@@ -131,10 +131,11 @@ a{
   
         .articles{
             display: grid;
-            grid-gap: 10PX;
+            grid-gap: 20PX;
             background-color: #d8d7d7;
-            grid-template-columns: 20% 20% 20% ;
-            grid-template-rows: 20% 20% 20% 20%; 
+            grid-template-columns: repeat(2,650px) ;
+            grid-template-rows: 1fr 1fr  -05fr; 
+
             
        
 
@@ -147,7 +148,8 @@ a{
             margin: 10px 10px 0 0 px ;
             flex: 1 1 45%;
             background: #ececec;
-            grid-column-start: 2;
+            
+            
             
 
         }
@@ -159,6 +161,7 @@ a{
             
         .article a{
             color:#9f9292 ;
+            
         } 
 
          h3{
@@ -185,9 +188,10 @@ a{
         }
 
 
-            .navigation{
+             .navigation{
                 text-align: center;
-                flex:1 1 100%;
+                grid-column-start: 1;
+                grid-column-end: 3;
             }
 
         .aside{
