@@ -130,11 +130,12 @@ a{
 }
   
         .articles{
-            
-            flex: 2 1 auto;
-            display: flex;
-            flex-flow: row wrap;
+            display: grid;
+            grid-gap: 10PX;
             background-color: #d8d7d7;
+            grid-template-columns: 20% 20% 20% ;
+            grid-template-rows: 20% 20% 20% 20%; 
+            
        
 
        }
@@ -146,6 +147,7 @@ a{
             margin: 10px 10px 0 0 px ;
             flex: 1 1 45%;
             background: #ececec;
+            grid-column-start: 2;
             
 
         }
