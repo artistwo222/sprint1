@@ -221,10 +221,17 @@ a{
             
             .menu {
                 display: flex;
-                flex-direction:row;
-                
-                 
+                flex-direction:row; 
                  }
+
+                 .nav{
+                    column-count: 5;
+                     }
+                 .social{
+                    visibility: hidden;
+                    
+                      }
+
             .section {
                  flex-direction:column ;
                }
@@ -251,7 +258,23 @@ a{
         }
 
         @media (min-width: 320px) and (max-width: 480px) {
-            
+            .menu {
+                display: flex;
+                flex-direction:row;
+                display: block;
+                text-align: center;
+               
+                  }
+                 
+
+                  .nav{
+                  visibility: hidden;
+                   }
+                  
+                  .social{
+                    visibility: hidden;
+                    
+                  }
                  
             h1{
                 font-size: 13px;    
