@@ -115,10 +115,10 @@ a{
              
                     @keyframes acelerate {
                         from{
-                            transform: translateX(-200px)scalex(1);
+                            transform: translateX(-100px)scalex(1);
                         }
                         to{
-                            transform: translateX(200px)scaleX(1);
+                            transform: translateX(00px)scaleX(1);
                         }
               }
      .section {
@@ -216,48 +216,7 @@ a{
 
         /* media queries */
   
-        @media (min-width: 768px) and (max-width: 1024px)  {
-          
-            
-            .menu {
-                display: flex;
-                flex-direction:row; 
-                 }
-
-                 .nav{
-                    column-count: 5;
-                     }
-                 .social{
-                    visibility: hidden;
-                    
-                      }
-
-            .section {
-                 flex-direction:column ;
-               }
-                 .articles {
-                background-color: #d8d7d7;
-                }
-               
-                 .article {
-                background-color: #f5f1f1;
-               }
-            
-
-                 .aside{
-                background-color: #ffffff;
-               }
-                  .publicity {
-                  background-color: #f5f1f1;
-                   }
-             .foot {
-                    background-color: #f5f1f1;
-                  }
-
-
-        }
-
-        @media (min-width: 320px) and (max-width: 480px) {
+        @media (max-width: 575.98px){
             .menu {
                 display: flex;
                 flex-direction:row;
@@ -302,3 +261,44 @@ a{
                   }
             
           }   
+
+          @media (max-width: 767.98px) {
+          
+            
+            .menu {
+                display: flex;
+                flex-direction:row; 
+                 }
+
+                 .nav{
+                    column-count: 5;
+                     }
+                 .social{
+                    visibility: hidden;
+                    
+                      }
+
+            .section {
+                 flex-direction:column ;
+               }
+                 .articles {
+                background-color: #d8d7d7;
+                }
+               
+                 .article {
+                background-color: #f5f1f1;
+               }
+            
+
+                 .aside{
+                background-color: #ffffff;
+               }
+                  .publicity {
+                  background-color: #f5f1f1;
+                   }
+             .foot {
+                    background-color: #f5f1f1;
+                  }
+
+
+        }
