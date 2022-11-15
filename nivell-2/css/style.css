@@ -115,10 +115,10 @@ a{
              
                     @keyframes acelerate {
                         from{
-                            transform: translateX(-500px)scalex(1);
+                            transform: translateX(-200px)scalex(1);
                         }
                         to{
-                            transform: translateX(500px)scaleX(1);
+                            transform: translateX(200px)scaleX(1);
                         }
               }
      .section {
@@ -253,7 +253,7 @@ a{
              .foot {
                     background-color: #f5f1f1;
                   }
-            
+
 
         }
 
